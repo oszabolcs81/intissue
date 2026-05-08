@@ -165,11 +165,13 @@ const animalTeam: TeamMember[] = [
 
 const MemberCard = ({ member }: { member: TeamMember }) => (
   <div className="group flex flex-col sm:flex-row gap-5 bg-card p-5 border border-border hover:border-muted-foreground/30 transition-colors">
-    <img
-      src={member.image}
-      alt={member.name}
-      className="w-full sm:w-40 h-48 sm:h-48 object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-    />
+    <div className="w-full sm:w-40 shrink-0 aspect-[3/4] sm:aspect-auto sm:h-48 overflow-hidden">
+      <img
+        src={member.image}
+        alt={member.name}
+        className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500"
+      />
+    </div>
     <div className="flex-1 min-w-0">
       <h3 className="text-lg font-semibold mb-1">{member.name}</h3>
       <p className="text-primary text-sm mb-3">{member.role}</p>
