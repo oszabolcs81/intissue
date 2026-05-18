@@ -8,8 +8,7 @@ const Contact = () => (
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
         style={{
-          backgroundImage:
-            "url(https://static.wixstatic.com/media/494f80_6bbacb88f47c40c79007577f0aaab01a~mv2.jpeg/v1/fill/w_1920,h_285,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/494f80_6bbacb88f47c40c79007577f0aaab01a~mv2.jpeg)",
+          backgroundImage: "url(/images/contact_hero.jpeg)",
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background" />

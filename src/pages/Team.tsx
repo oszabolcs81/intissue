@@ -18,7 +18,7 @@ const humanTeam: TeamMember[] = [
       "ADR Specialist for 6.2 class human tissues",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_52a1d656d36449779a147e7dfc0abd04~mv2.jpg/v1/crop/x_0,y_376,w_2362,h_2365/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7192.jpg",
+    image: "/images/team/494f80_52a1d656d36449779a147e7dfc0abd04~mv2.jpg",
     links: [
       { label: "Regenerative medicine", url: "https://pubmed.ncbi.nlm.nih.gov/34061289/" },
       { label: "Thermal manipulation", url: "https://www.intechopen.com/chapters/80649" },
@@ -34,7 +34,7 @@ const humanTeam: TeamMember[] = [
       "GMP / Phlebotomy technician",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_1e44ebd55680425f8a3e5055de97c3b3~mv2.jpg/v1/crop/x_0,y_419,w_2003,h_2162/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7465v_edited_edited.jpg",
+    image: "/images/team/494f80_1e44ebd55680425f8a3e5055de97c3b3~mv2.jpg",
     links: [
       { label: "Regenerative medicine", url: "https://pubmed.ncbi.nlm.nih.gov/34061289/" },
       { label: "Thermal manipulation", url: "https://www.intechopen.com/chapters/80649" },
@@ -49,7 +49,7 @@ const humanTeam: TeamMember[] = [
       "Utilize GBR, GTR, open suture technique with Intissue",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_ade78ac6c1be426a885917dde5edbcda~mv2.jpg/v1/crop/x_0,y_258,w_1693,h_1828/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7068n_edited_edited.jpg",
+    image: "/images/team/494f80_ade78ac6c1be426a885917dde5edbcda~mv2.jpg",
     links: [
       { label: "Regenerative medicine", url: "https://pubmed.ncbi.nlm.nih.gov/34061289/" },
       { label: "Thermal manipulation", url: "https://www.intechopen.com/chapters/80649" },
@@ -63,7 +63,7 @@ const humanTeam: TeamMember[] = [
       "Open suture technique",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_9642c228fa7c4342b016b505eaf160ee~mv2.jpg/v1/crop/x_0,y_391,w_2362,h_2365/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7351.jpg",
+    image: "/images/team/494f80_9642c228fa7c4342b016b505eaf160ee~mv2.jpg",
     links: [
       { label: "Regenerative medicine", url: "https://pubmed.ncbi.nlm.nih.gov/34061289/" },
       { label: "Thermal manipulation", url: "https://www.intechopen.com/chapters/80649" },
@@ -77,7 +77,7 @@ const humanTeam: TeamMember[] = [
       "Knee arthrosis, sports injuries",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_e82b91d0fd454e98ac2f204bb1968f8b~mv2.jpg/v1/crop/x_0,y_162,w_2128,h_2296/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7653_edited.jpg",
+    image: "/images/team/494f80_e82b91d0fd454e98ac2f204bb1968f8b~mv2.jpg",
   },
   {
     name: "Dr. Csák Csaba",
@@ -87,7 +87,7 @@ const humanTeam: TeamMember[] = [
       "Open suture technique",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_8c67da862885410d9718b53ae16fdf84~mv2.jpg/v1/crop/x_0,y_337,w_2154,h_2325/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7743_edited_edited.jpg",
+    image: "/images/team/494f80_8c67da862885410d9718b53ae16fdf84~mv2.jpg",
   },
   {
     name: "Dr. Kónya János",
@@ -95,7 +95,7 @@ const humanTeam: TeamMember[] = [
     details: [
       "Innovation of materials and technology in customized 3D implants",
     ],
-    image: "https://static.wixstatic.com/media/494f80_187b3cf2ba25487d8c70da11bcb4f109~mv2.jpg/v1/crop/x_0,y_321,w_2362,h_2740/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/konyajanos.jpg",
+    image: "/images/team/494f80_187b3cf2ba25487d8c70da11bcb4f109~mv2.jpg",
   },
   {
     name: "Dr. Mariann Tálas",
@@ -105,7 +105,7 @@ const humanTeam: TeamMember[] = [
       "Open suture technique",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_71307ea858194913902a9d12a88df79e~mv2.jpg/v1/crop/x_0,y_328,w_2362,h_2362/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7146.jpg",
+    image: "/images/team/494f80_71307ea858194913902a9d12a88df79e~mv2.jpg",
   },
   {
     name: "Dr. Annamária Weithaler",
@@ -113,7 +113,7 @@ const humanTeam: TeamMember[] = [
     details: [
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_5f2ad11b48884115be62a1eca9f859f5~mv2.jpg/v1/crop/x_0,y_162,w_1577,h_1704/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/annamariadoktorno.jpg",
+    image: "/images/team/494f80_5f2ad11b48884115be62a1eca9f859f5~mv2.jpg",
   },
   {
     name: "Dr. Zsuzsanna Barna",
@@ -121,7 +121,7 @@ const humanTeam: TeamMember[] = [
     details: [
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_60b33b734c764c00b7344d1b89f6d304~mv2.jpg/v1/crop/x_0,y_419,w_2002,h_2161/fill/w_302,h_350,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7434_edited.jpg",
+    image: "/images/team/494f80_60b33b734c764c00b7344d1b89f6d304~mv2.jpg",
   },
 ];
 
@@ -135,7 +135,7 @@ const animalTeam: TeamMember[] = [
       "Wound care specialist",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_9a0a90c123654ac09d400e52cdab0144~mv2.jpg/v1/crop/x_0,y_529,w_2078,h_2076/fill/w_302,h_326,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7735.jpg",
+    image: "/images/team/494f80_9a0a90c123654ac09d400e52cdab0144~mv2.jpg",
   },
   {
     name: "Dr. Tamás Ipolyi",
@@ -147,7 +147,7 @@ const animalTeam: TeamMember[] = [
       "Guided Tissue & Bone Regeneration in small animals",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_8f94827627e84ead9c157948bb766801~mv2.jpg/v1/crop/x_0,y_423,w_2362,h_2365/fill/w_302,h_326,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7664.jpg",
+    image: "/images/team/494f80_8f94827627e84ead9c157948bb766801~mv2.jpg",
   },
   {
     name: "Dr. Csilla Simon",
@@ -159,7 +159,7 @@ const animalTeam: TeamMember[] = [
       "Guided Tissue Regeneration in small animals",
       "Hungarian Board of Cell&Tissue Regenerative Medicine",
     ],
-    image: "https://static.wixstatic.com/media/494f80_266c1827f36a467eb9ecd97c9fe87db8~mv2.jpg/v1/crop/x_0,y_231,w_2362,h_2362/fill/w_302,h_326,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/_DSC7672.jpg",
+    image: "/images/team/494f80_266c1827f36a467eb9ecd97c9fe87db8~mv2.jpg",
   },
 ];
 

@@ -8,8 +8,7 @@ const Index = () => (
       <div
         className="absolute inset-0 bg-cover bg-center opacity-40"
         style={{
-          backgroundImage:
-            "url(https://static.wixstatic.com/media/494f80_1fd8e7d8c310461682f5a6d4ab7d7bcd~mv2.jpg/v1/fill/w_1760,h_424,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/494f80_1fd8e7d8c310461682f5a6d4ab7d7bcd~mv2.jpg)",
+          backgroundImage: "url(/images/hero_banner.jpg)",
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background/60 to-background" />
@@ -52,7 +51,7 @@ const Index = () => (
         <div className="grid md:grid-cols-3 gap-6">
           <Link to="/videos" className="group relative overflow-hidden aspect-[3/4]">
             <img
-              src="https://static.wixstatic.com/media/11062b_51d6cb9828a04eb88ce21ba4e443a1f3~mv2.jpg/v1/fill/w_440,h_472,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_51d6cb9828a04eb88ce21ba4e443a1f3~mv2.jpg"
+              src="/images/human_treatment.jpg"
               alt="Human treatment surgery"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
@@ -65,7 +64,7 @@ const Index = () => (
 
           <Link to="/videos" className="group relative overflow-hidden aspect-[3/4] md:col-span-1 md:row-span-1">
             <img
-              src="https://static.wixstatic.com/media/894115cb4cc44f66b0cadac89583f5cd.jpg/v1/fill/w_880,h_450,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/894115cb4cc44f66b0cadac89583f5cd.jpg"
+              src="/images/animal_treatment.jpg"
               alt="Animal treatment at the vet"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
@@ -78,7 +77,7 @@ const Index = () => (
 
           <Link to="/videos" className="group relative overflow-hidden aspect-[3/4]">
             <img
-              src="https://static.wixstatic.com/media/f2ac30_d482a5f8202b4f8b9fb6db96d267465d~mv2_d_3000_2000_s_2.jpg/v1/fill/w_440,h_450,al_l,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/f2ac30_d482a5f8202b4f8b9fb6db96d267465d~mv2_d_3000_2000_s_2.jpg"
+              src="/images/tati_dog.jpg"
               alt="Tati the dog"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
