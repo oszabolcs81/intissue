@@ -26,7 +26,7 @@ const Contact = () => (
     <section className="py-16 px-6">
       <div className="max-w-xl mx-auto">
         <form
-          action="https://formspree.io/f/intissue"
+          action="https://formspree.io/f/mgoqedgv"
           method="POST"
           className="space-y-5"
         >
