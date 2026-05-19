@@ -3,11 +3,11 @@ import Layout from "@/components/Layout";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Play } from "lucide-react";
 
-type Video = { title: string; duration: string; src: string };
+type Video = { title: string; duration: string; src?: string; youtubeId?: string };
 
 const animalVideos: Video[] = [
-  { title: "Horse Sinus Teaser", duration: "01:30", src: "/videos/animal-horse-sinus-teaser.mp4" },
-  { title: "TÁTI the Dog", duration: "01:24", src: "/videos/animal-t-ti-the-dog.mp4" },
+  { title: "Horse Sinus Teaser", duration: "01:30", youtubeId: "L3fMC_eHGiY" },
+  { title: "TATI the Dog", duration: "01:24", src: "/videos/animal-t-ti-the-dog.mp4" },
   { title: "Shearing Injury Dog 2", duration: "00:50", src: "/videos/animal-management-of-shearing-injury-for-dog-2.mp4" },
   { title: "Shearing Injury Dog", duration: "00:30", src: "/videos/animal-management-of-shearing-injury-for-dog.mp4" },
   { title: "Tumor Treatment with RegBone", duration: "00:41", src: "/videos/animal-new-treatment-of-tumor-for-dog-with-regbone-in-mandible.mp4" },
@@ -70,7 +70,7 @@ const Videos = () => {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {animalVideos.map((v) => (
-              <Tile key={v.src} video={v} accent="bg-gradient-to-br from-primary/30 to-primary/5" onPlay={setActive} />
+              <Tile key={v.title} video={v} accent="bg-gradient-to-br from-primary/30 to-primary/5" onPlay={setActive} />
             ))}
           </div>
         </div>
@@ -84,7 +84,7 @@ const Videos = () => {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {surgeryVideos.map((v) => (
-              <Tile key={v.src} video={v} accent="bg-gradient-to-br from-accent/40 to-accent/5" onPlay={setActive} />
+              <Tile key={v.title} video={v} accent="bg-gradient-to-br from-accent/40 to-accent/5" onPlay={setActive} />
             ))}
           </div>
         </div>
@@ -94,14 +94,24 @@ const Videos = () => {
         <DialogContent className="max-w-4xl p-0 bg-black border-border overflow-hidden">
           <DialogTitle className="sr-only">{active?.title ?? "Video"}</DialogTitle>
           {active && (
-            <video
-              key={active.src}
-              src={active.src}
-              controls
-              autoPlay
-              playsInline
-              className="w-full aspect-video bg-black"
-            />
+            active.youtubeId ? (
+              <iframe
+                key={active.youtubeId}
+                src={`https://www.youtube.com/embed/${active.youtubeId}?autoplay=1`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full aspect-video bg-black"
+              />
+            ) : (
+              <video
+                key={active.src}
+                src={active.src}
+                controls
+                autoPlay
+                playsInline
+                className="w-full aspect-video bg-black"
+              />
+            )
           )}
           {active && (
             <div className="px-4 py-3 bg-background">
